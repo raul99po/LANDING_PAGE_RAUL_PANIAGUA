@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Contacta conmigo! - R.P.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon_raul.png" type="image/x-icon">
+</head>
+<body>
+    <section>
+    <header>
+            <a href="index.html" class="logo">Raúl Paniagua Ordóñez</a>
+            <ul class="navbar">
+                <li>
+                    <a href="sobre_mi.html">Mi historia</a>
+                </li>
+                <li>
+                    <a href="cv.html">CV</a>
+                </li>
+                <li>
+                    <a href="proyectos.html">Proyectos destacados</a>
+                </li>
+                <li>
+                    <a href="contacta_conmigo.html">Contacto</a>
+                </li>
+            </ul>
+    </header>
+    <div class="contenido_formulario" id="divs">
+        <div class="formulario">
+            <form action="mailto:raul99p.o@gmail.com" method="post">
+                <label id="rellena_tus" for="rellena_tus">Rellena tus datos</label>
+               <div class="datos_personales">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="*" required>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos"><br><br>
+                <label for="email">e-mail:</label>
+                <input type="text" name="email" id="email" placeholder="*" required>
+                <label for="email">Teléfono:</label>
+                <input type="text" name="teléfono" id="teléfono" placeholder="*" required><br><br>
+                <label for="nombre_empresa">Nombre de empresa (opcional):</label>
+                <input type="text" id="nombre_empresa" name="nombre_empresa"></div><br><br>
+                <label for="x" id="rellena_tus">¿Porqué quieres contactar conmigo?</label>
+                <div class="casillas">
+                    <label for="contratacion">Contratación</label>
+                    <input type="checkbox" name="opcion_1" id="opcion">
+                    <label for="colaboracion">Colaboración</label>
+                    <input type="checkbox" name="opcion_2" id="opcion">
+                    <label for="otros">Otra</label>
+                    <input type="checkbox" name="opcion_3" id="opcion"><br><br>
+                    <label class="otras_opc" for="otras_opc">Si has escogido anteriormente la opción "Otra", escoge una</label>
+                    <select name="select_otras_opc" id="select_otras_opc">
+                        <option class="pago" value="pago">Pago</option>
+                        <option class="descontento" value="descontento">Descontento con el proyecto</option>
+                        <option class="ia" value="ia">I.A aplicado a imágenes</option>
+                    </select>
+                    </div><br><br>
+                    <label for="x" id="rellena_tus">¿Cuándo le viene bien que contacte con usted?</label>
+                    <div class="fecha">
+                        <label for="fecha" id="fecha">Fecha:</label>
+                        <input type="date" name="fecha" id="fecha"><br><br>
+                    <label for="hora" id="hora">Hora de la llamada:</label>
+                    <select name="select_hora" id="select_hora">
+                        <option value="hora1">08:00 - 10:00</option>
+                        <option value="hora2">12:30 - 14:00</option>
+                        <option value="hora3">17:30 - 19:00</option>
+                        <option value="hora4">20:00 - 22:00</option>
+                    </select>
+                    </div><br>
+                    <center>
+                    <input class="enviar_datos" type="button" value="Enviar datos">
+                    </center>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="explicacion" id="divs">
+        <p>Si quieres contactar conmigo,<br>rellena este formulario<br>y me pondré en contacto contigo<br> por correo electrónico o teléfono.<br>
+        </p><br>
+        <p id="recuerda">Es una plantilla HTML con CSS, no es funcional el formulario.</p>
+    </div>
+    <ul class="redes_sociales">
+       <li>
+        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+       </li>
+       <li>
+        <a href="mailto:raul99p.o@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+        </li>
+    </ul>
+    </section>
+    <footer>
+        <div class="copyright">
+            <p>&copy;Web Personal creada para LM <br> del CFGS ASIR </p>
+        </div>
+    </footer>
+</body>
+</html>

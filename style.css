@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+15&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+header{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: whitesmoke;
+    font-size: 1.4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #c20000;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 350;
+}
+header .logo:hover{
+    color: red;
+    background-color: black;
+    transition: 2s;
+}
+header .navbar{
+    position: relative;
+    display: flex;
+}
+header .navbar li{
+    list-style: none;
+    margin-left: 50px;
+}
+header .navbar li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 400;
+    padding: 10px;
+    transition:0.3s;
+    font-size:0.9em;
+    text-transform:lowercase;
+}
+header .navbar li a:hover{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 2px;
+    color: red;
+}
+/*Contenido de la web*/
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+.contenido1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding-left: 30px;
+}
+.contenido .titulobox{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+.contenido1 .titulobox1{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+.contenido .titulobox h2{
+font-size:4.5em;
+text-transform: uppercase;
+color:whitesmoke;
+}
+.contenido1 .titulobox1 h2{
+font-size:4em;
+text-transform: uppercase;
+color:whitesmoke;
+margin-top: 90px;
+}
+.contenido1 .titulobox2 p{
+color: #c20000;
+font-size: 1.5em;
+font-family: "Schibsted Grotesk", sans-serif;
+padding: 20px;
+text-align: center;
+background-color: black;
+border: 2px solid rgb(43, 43, 43);
+}
+.contenido1 .titulobox2 p:hover{
+    color: black;
+    background-color: #c20000;
+    transition: 1s;
+    }
+
+.contenido .titulobox h2:hover{
+    color: black;
+    transition: 0.10s;
+}
+.contenido1 .titulobox1 h2:hover{
+    color: #c20000;
+    background-color: black;
+    transition: 0.6s;
+    border-radius: 25px;
+}
+.adm:hover{
+    background-color: azure;
+    color: black;
+    transition: 0.8s;
+}
+.contenido .titulobox h2 span{
+    background: #c20000;
+    color: black;
+    padding:0 10px;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    font-size: smaller;
+}
+.contenido .titulobox h2 span:hover{
+    background-color: black;
+    color: #c20000;
+    transition: 0.6s;
+}
+.contenido .titulobox p{
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+    
+}
+.contenido .titulobox a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background: #c20000;
+    padding: 10px 20px;
+    margin:left 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.contenido .titulobox a:hover{
+    color: red;
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px;
+}
+.contenido .titulobox a:active{
+    color: red;
+    background-color: white;
+}
+
+body{
+    background: #ff0000;
+    background-image: url(img/wallpaper_index.jpg);
+}
+.copyright p{
+    color: white;
+    text-align:center;;
+    background-color: #c20000;    
+}
+
+/*Redes Sociales*/
+.redes_sociales{
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+.redes_sociales li{
+    padding: 10px;
+}
+.redes_sociales li a{
+    color: white;
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+.redes_sociales li a:hover{
+    color:yellow;
+}
+
+/* Estilos específicos del formulario */
+.contenido_formulario {
+    background-color: black; 
+    padding: 20px;
+    margin-top: 20px;
+    color: #c20000;
+    border: 3px solid rgb(64, 57, 57);
+    border-radius: 40px;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.casillas label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.otras_opc {
+    margin-top: 10px;
+}
+#rellena_tus{
+    font-size: 2em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+.datos_personales{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 20px;
+}
+.datos_personales:hover{
+    background-color: #c20000;
+    color: black;
+    transition: 0.8s;
+    border: none;
+    padding: 45px; 
+}
+.casillas{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.casillas:hover{
+    background-color: #c20000;
+    color: black;
+    transition: 0.8s;
+    border: none;
+    padding: 45px; 
+}
+#opcion{
+    color: red;
+}
+#fecha{
+    width: 100%;
+    height: 30px;
+    margin-bottom: -7px;
+}
+.fecha{
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 20px;
+}
+.fecha:hover{
+    background-color: #c20000;
+    color: black;
+    transition: 0.8s;
+    border: none;
+    padding: 45px; 
+}
+.enviar_datos{
+    color: #c20000;
+    background: black;
+    padding: 10px 20px;
+    margin:left 30px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    transition: 0.8s;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+.enviar_datos:hover{
+    text-decoration: dashed;
+    color: white;
+    background: #c20000;
+    transition: 0.3s;
+    border: 1px solid black;
+    padding: 25px;
+}
+.enviar_datos:active{
+    color: black;
+    background: white;
+    border: 3px solid #c20000;
+}
+#divs{
+    display: inline-block;
+}
+.explicacion{
+    font-size: 60px;
+    line-height: 1.5;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 45px;
+    margin-bottom: 380px;
+}
+
+#recuerda{
+    font-size: 18px;
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #ccc;
+}
+#recuerda:hover{
+    font-size: 19px;
+    color: yellow;
+}
+
+.cv {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 2px solid rgb(160, 160, 160);
+    border-bottom: 3px solid rgb(49, 49, 49);
+    border-right: 2px solid rgb(132, 132, 132);
+    border-left: 2px solid rgb(132, 132, 132);
+    border-radius: 25px;
+    background-color: black;
+    color: #c20000;
+    margin-right: 40px;
+  }
+  .cv:hover{
+    background-image: url(img/cv_div.jpg);
+    padding: 30px;
+    transition: 0.8s;
+  }
+  
+  .header_cv {
+    text-align: center;
+    margin-bottom: 20px;
+  
+  }
+  
+  #nombre_1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .section_1 {
+    margin-bottom: 30px;
+    font-family: "Schibsted Grotesk", sans-serif;
+  }
+  
+  .label_1 {
+    font-weight: bold;
+    
+  }
+  
+  .experience,
+  .education {
+    margin-bottom: 20px;
+  }
+  
+  .experience h3,
+  .education h3 {
+    margin-bottom: 5px;
+  }
+  
+  .experience p,
+  .education p {
+    margin-bottom: 3px;
+  }
+  .info{
+    font-size: 30px;
+  }
+  #direccion_1, #correo_1, #telefono_1 {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: white;
+    list-style-type: none;
+  }
+  .oth{
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: white;
+  }
+  .oth1{
+    color: white;
+  }
+  #edu_periodo{
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: white;
+  }
+ .boton_proyectos{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background: #c20000;
+    padding: 10px 20px;
+    margin:left 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: none;
+ }
+ .boton_proyectos:hover{
+    color: red;
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px;
+ }
+.boton_proyectos:active{
+    color: red;
+    background-color: white;
+}
+#cvv{
+    padding-bottom:20px;
+}
+.bbdd{
+    font-size: 140px;
+    color: white;
+}
+.bbdd:hover{
+    font-size:142px;
+    color: #c20000;
+    background-color: black;
+    border-radius: 25px;  
+    transition: 0.8s;
+    border: 1px solid white;  
+}
+#bbdd_p{
+    font-size: 30px;
+    color: white;
+    font-family: "Schibsted Grotesk", sans-serif;
+    text-decoration: none;
+}
+#bbdd_a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 4px;
+    background-color: #c20000;
+    border-radius: 25px;
+}
+#bbdd_a:hover{
+    color: red;
+    background-color: black;
+    border: 2px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: 0.8s;
+}
+#bbdd_a:active{
+    color: red;
+    background-color: white;
+    transition: none;
+}
+@media(max-width:992px){
+    body{
+        width: 992px;
+    }
+    .contenido{
+        width: 992px;
+    }
+}
+@media(max-width:576px){
+    body{
+        width: 576px;
+    }
+    .contenido{
+        width: 576px;
+    }
+}
